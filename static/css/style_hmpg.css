@@ -1,0 +1,172 @@
+
+.thumbnail {
+    border: none;
+}
+
+.bar {
+    z-index: 999;
+    position: fixed;
+    height: 4em;
+    padding-top: 1em;
+    padding-left: 1.5em;
+    background-color: rgba(4, 164, 180, 0.85);
+    width: 100em;
+    overflow-x: hidden;
+}
+
+.local {
+    padding-top: 0.3em;
+    float: left;
+    margin-right: 1.4em;
+    vertical-align: middle;
+}
+
+#localPosition {
+    /*font-size: small;*/
+    font-weight: 600;
+    color: #ffffff;
+    display: inline;
+    vertical-align: bottom;
+}
+
+#localPointer {
+    height: 1.3em;
+    padding-left: 0.2em;
+    display: inline;
+    vertical-align: top;
+}
+
+.search {
+    width: 74%;
+    padding: 0.2em 0.5em;
+    float: left;
+    vertical-align: bottom;
+    background: url("../pic/homepage/searchBg.png") no-repeat;
+    background-size: 82% 1.9em;
+    max-width: 20em;
+    min-width: 16em;
+}
+
+.inputBox::-webkit-input-placeholder { /* WebKit browsers */
+    color: hsla(255, 100%, 100%, 0.6);
+    text-align: center;
+}
+.inputBox:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: hsla(255, 100%, 100%, 0.6);
+    text-align: center;
+}
+.inputBox::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: hsla(255, 100%, 100%, 0.6);
+    text-align: center;
+}
+.inputBox:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: hsla(255, 100%, 100%, 0.6);
+    text-align: center;
+}
+
+
+.inputBox {
+    width: 48%;
+    background: url("../pic/homepage/crystal.png") no-repeat;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    vertical-align: middle;
+}
+
+.magnifier {
+    background: url("../pic/homepage/search.png") no-repeat;
+    background-size: 1.5em 1.5em;
+    border: none;
+}
+
+
+.selectMenu {
+    color: #ffffff;
+    background-color: rgb(4, 164, 180);
+    border: none;
+    outline: none;
+    font-size: small;
+}
+
+.bar select {
+    color: #ffffff;
+    background: url("../pic/homepage/crystal.png") no-repeat;
+    border: none;
+    outline: none;
+    appearance: none;
+    -moz-appearance: none; /* Firefox */
+    -webkit-appearance: none; /* Safari 和 Chrome */
+
+}
+
+.bar option {
+    color: #ffffff;
+    background-color: rgb(4, 164, 180);
+    border: none;
+    outline: none;
+}
+
+
+
+.mainPart {
+    background-color: #f5f5f5;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+.rooms {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: #ffffff;
+}
+
+
+.roomIcon {
+    height: 4.2em;
+    width: auto;
+    display: block;
+}
+
+
+.brandIntroduce {
+    margin-top: 0.5em;
+    padding: 0.8em 0.8em 0 0.8em;
+    background-color: #ffffff;
+}
+
+.intro {
+    font-size: smaller;
+    margin: 0 1.5em 0 1.5em;
+}
+
+.brandDetail {
+    background-color: #ffffff;
+    padding: 1em 0.8em;
+}
+
+.brandIntro {
+    padding: 0.5em 0.8em;
+}
+
+.media {
+    padding: 0.5em 1em;
+}
+
+#telephone {
+    font-size: xx-small;
+    margin-top: 2em;
+    float: left;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #222222;
+}
+
+a {
+    text-decoration: none;
+    color: #222222;
+}

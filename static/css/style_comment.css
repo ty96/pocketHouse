@@ -1,0 +1,124 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    background-color: rgb(245, 245 ,245);
+    max-width: 640px;
+    min-width: 320px;
+    overflow-x: hidden;
+}
+
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #222222;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #222222;
+}
+
+.iconBar {
+    padding-left: 2.2em;
+}
+
+.iconBar>div {
+    display: inline-block;
+    text-align: center;
+    margin-right: 0.8em;
+}
+
+.icon {
+    height: 36px;
+    margin: 0.5em 0 0 -15px;
+    position: absolute;
+}
+
+.counter {
+    font-size: 10px;
+    color: #42d3d9;
+    margin-top: 25px;
+}
+
+.comment {
+    background-color: white;
+    padding-bottom: 0.5em;
+}
+
+
+.comment div {
+    padding: 0 2.2em;
+}
+
+.userDetail img {
+    margin: 0.5em 0;
+    height: 2.5em;
+}
+
+.preview {
+    background-color: white;
+}
+
+#commentPic {
+    margin: 0.5em 0;
+    padding: 0;
+}
+
+
+#commentPic>img {
+    max-width: 3em;
+    max-height: 3em;
+}
+
+
+
+
+
+.goIn {
+    background-color: white;
+    padding: 0.5em 0;
+}
+
+
+.shoppingCart {
+    background-color: rgb(253, 148, 66);
+    padding: 0.5em 0;
+}
+
+.shoppingCart>a {
+    color: white;
+}
+
+.enterBtn {
+    background-color: #ffffff;
+    text-align: center;
+    width: 100%;
+    color: #000000;
+}
+
+.shop {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    bottom: 0;
+}
+
+.inShop {
+    text-align: left;
+}
+
+.inShop a {
+    padding-left: 2.2em;
+}
+
+.detailInfo {
+    color: grey;
+    font-size: 0.8em;
+    margin: 0.2em 0 0.5em;
+}

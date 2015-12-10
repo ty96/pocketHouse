@@ -1,0 +1,42 @@
+
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 640px;
+    min-width: 320px;
+    overflow-x: hidden;
+}
+
+.line {
+    margin: auto;
+    overflow-x: hidden;
+}
+
+a {
+    font-size: small;
+    text-decoration: none;
+    color: #222222;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #222222;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.picUnit {
+    padding-top: 2em;
+    /*padding-left: 1em;*/
+}
+
+.picUnit img {
+    max-width: 115%;
+}
+
+.brandTitle {
+    text-align: center;
+}

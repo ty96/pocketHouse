@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>商品主页</title>
+    <link href="static/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="static/css/style_detail.css" rel="stylesheet" type="text/css">
+    <link href="static/css/msg.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<!--carousel-->
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="static/pic/goodsdetail/goods.png" alt="..." style="margin: 0 0">
+            <div class="carousel-caption">
+            </div>
+        </div>
+        <div class="item">
+            <img src="static/pic/goodsdetail/goods.png" alt="..." style="margin: 0 0">
+            <div class="carousel-caption">
+            </div>
+        </div>
+        <div class="item">
+            <img src="static/pic/goodsdetail/goods.png" alt="..." style="margin: 0 0">
+            <div class="carousel-caption">
+            </div>
+        </div>
+        <div class="item">
+            <img src="static/pic/goodsdetail/goods.png" alt="..." style="margin: 0 0">
+            <div class="carousel-caption">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container title">
+    <p>奥纳蒙特 高端家具定制  后现代真皮单人沙发</p>
+    <h4>￥5880</h4>
+    <span>下单85折</span>
+</div>
+
+<div class="mainPart">
+
+    <div style="margin: 0; background-color: #f5f5f5; height: 0.5em"></div>
+
+
+    <!--local-->
+
+    <div class="container local media">
+        <div class="smallIcon">
+            <a>
+                <img src="static/pic/goodsdetail/pointer.png" onclick="alert('address')">
+            </a>
+        </div>
+        <div class="smallText">
+            <a class="subText" onclick="alert('address')">成都家具产业园繁川家具大道南段365号家和家园国际家居 商城</a>
+        </div>
+        <div class="smallArrow pull-right">
+            <a>
+                <img src="static/pic/goodsdetail/rightArrow.png">
+            </a>
+        </div>
+    </div>
+
+    <div style="margin: 0; background-color: #f5f5f5; height: 1px"></div>
+
+    <!--tel-->
+
+    <div class="media container local">
+        <div class="smallIcon">
+            <a>
+                <img src="static/pic/goodsdetail/phone.png" onclick="alert('028-87730606')">
+            </a>
+        </div>
+        <div class="smallText">
+            <a class="subText" onclick="alert('028-87730606')">028-87730606</a>
+        </div>
+        <div class="smallArrow pull-right">
+            <a>
+                <img src="static/pic/goodsdetail/rightArrow.png">
+            </a>
+        </div>
+    </div>
+
+    <div style="margin: 0; background-color: #f5f5f5; height: 0.5em"></div>
+
+    <!--enter-->
+
+    <div class="enterBtn shop row">
+        <div class="col-xs-4 col-md-4 goIn "><a href="shop_detail.html">进入店铺</a></div>
+        <div class="col-xs-8 col-md-8 shoppingCart"><a href="">加入购物车</a></div>
+    </div>
+
+    <!--comment-->
+
+    <div style="margin: 0; background-color: #f5f5f5; height: 0.5em"></div>
+
+
+
+    <div class="comment">
+        <div class="goIn"><a href="shop_detail.html">产品评价<span id="commentCounter">  (1)</span></a></div>
+        <div style="margin: 0; background-color: #f5f5f5; height: 1px"></div>
+
+
+        <div class="userDetail">
+            <img src="static/pic/goodsdetail/portrait.png">
+            <span> 清风</span>
+        </div>
+        <div class="preview">
+            <p>这里有一些评论。这里有一些评论。这里有一些评论。这里有一些评论。</p>
+            <p class="commitDetail">2015-09-02 颜色：红色 款型：</p>
+        </div>
+        <div style="margin: 0; background-color: #f5f5f5; height: 1px"></div>
+
+    </div>
+
+    <div class="enterBtn shop detail">
+        <div class="goIn"><a href="comment.html">查看更多评价</a></div>
+    </div>
+
+
+    <!--details-->
+
+    <div style="margin: 0; background-color: #f5f5f5; height: 0.5em"></div>
+
+    <div class="enterBtn shop detail">
+        <div class="col-xs-6 col-md-6 goIn"><a href="shop_detail.html">图文详情</a></div>
+        <div class="col-xs-6 col-md-6 goIn"><a href="shop_detail.html">产品参数</a></div>
+    </div>
+
+
+</div>
+
+<!--to top-->
+
+<div class="to_top">
+    <a onclick="floatNotify.simple('客服', '2000')"><img src="static/pic/goodsdetail/service.png"></a>
+</div>
+
+
+</body>
+<script src="static/js/jquery.min.js"></script>
+<script src="static/js/bootstrap.min.js"></script>
+<script src="static/js/carousel.js"></script>
+<script src="static/js/switch.js"></script>
+<script src="static/js/msg.js"></script>
+</html>

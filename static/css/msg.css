@@ -1,0 +1,87 @@
+.c-float-modePop {
+    text-align: center;
+    background-color: rgba(23, 23, 23, 0.9)
+}
+.c-float-modePop .warnMsg {
+    padding: 10px 10px 10px 10px;
+    color: #fff
+}
+.c-float-modePop .doBtn {
+    width: 170px;
+    margin: 0 auto
+}
+.c-float-modePop button {
+    padding: 6px 9px 6px 9px;
+    color: #949494;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #404040), color-stop(100%, #2e2e2e));
+    border: 0;
+    border-radius: 2px
+}
+.c-float-shade {
+    width: 100%;
+    display: block;
+    position: absolute;
+    z-index: 99;
+    background-color: #000;
+    opacity: .5;
+    top: 0;
+    left: 0
+}
+.c-float-shade.hide {
+    display: none
+}
+.c-float-popWrap {
+    width: 220px;
+    border-radius: 2px;
+    z-index: 9999;
+    position: absolute;
+    overflow: hidden
+}
+.c-float-popWrap .c-float-modePop {
+    background-color: rgba(51, 51, 51, 0.9);
+    border-radius: 2px;
+    padding: 15px
+}
+.c-float-popWrap .c-float-modePop .warnMsg {
+    padding: 0;
+    font-size: 14px
+}
+.c-float-popWrap .c-float-modePop .content {
+    margin-top: 10px
+}
+.c-float-popWrap .c-float-modePop .doBtn {
+    width: 190px;
+    margin-top: 10px
+}
+.c-float-popWrap .c-float-modePop button {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    color: #444;
+    font-size: 14px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eee), color-stop(100%, #999));
+    border: 0;
+    border-radius: 2px;
+    padding: 0;
+    margin: 10px 5px 0
+}
+.c-float-popWrap.hide {
+    display: none;
+    -webkit-box-shadow: none
+}
+.c-float-popWrap.show {
+    display: block;
+    -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.3)
+}
+.c-float-popWrap.msgMode .c-float-modePop .content,  .c-float-popWrap.msgMode .c-float-modePop .doBtn {
+    display: none
+}
+.c-float-popWrap.alertMode .c-float-modePop .content {
+    display: none
+}
+.c-float-popWrap.alertMode .c-float-modePop .doBtn .cancel {
+    display: none
+}
+.c-float-popWrap.confirmMode .c-float-modePop .content,  .c-float-popWrap.confirmMode .c-float-modePop .doBtn {
+    display: block
+}

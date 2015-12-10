@@ -1,0 +1,44 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 640px;
+    min-width: 320px;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+.bg {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+}
+
+#masking{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    visibility: hidden;
+}
+
+.ios img {
+    z-index: 999;
+    position: absolute;
+    width: 40%;
+    top: 48%;
+    left: 28.8%;
+}
+
+.android img {
+    z-index: 999;
+    position: absolute;
+    width: 40%;
+    top: 60%;
+    left: 28.8%;
+}

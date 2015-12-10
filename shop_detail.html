@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>店铺页面</title>
+    <link href="static/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="static/css/style_shop.css" rel="stylesheet" type="text/css">
+    <link href="static/css/msg.css" rel="stylesheet" type="text/css">
+    <link href="static/css/style_list.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<a id="top" name="top"></a>
+
+<!--photo-->
+
+<div>
+    <div class="mainPhoto" style="position: relative">
+        <img src="static/pic/shop/mainphoto.png">
+        <div class="tips container">
+            <p>三叶家私旗舰店</p>
+        </div>
+        <div class="icon container">
+            <img id="star" src="static/pic/shop/star.png" onclick="star_clicked()">
+            <img src="static/pic/shop/share.png" onclick="shareTo()">
+        </div>
+        <div class="bg">
+            <img src="static/pic/shop/tip.png">
+        </div>
+    </div>
+</div>
+
+<!--select bar-->
+<div class="selectBar">
+    <div class="row">
+        <div class="col-xs-4 test">
+            <ul>
+                <li class="selectEle selectRoom">
+                    <ul class="selectCancel02">
+                        <a class="selectEle02 selectMenu">空间</a>
+                        <a><img src="static/pic/shop/corner.png" class="pull-right roomPic"></a>
+                    </ul>
+                    <ul class="byRoom option option01">
+                        <li><a class="blank" value="客厅">客厅</a></li>
+                        <li><a value="卧室">卧室</a></li>
+                        <li><a value="书房">书房</a></li>
+                        <li><a value="餐厅">餐厅</a></li>
+                        <li><a value="所有房间">所有房间</a></li>
+                        <div style="margin-bottom: 60em"></div>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-xs-4 test">
+            <ul>
+                <li class="selectEle selectType">
+                    <ul class="selectCancel03">
+                        <a class="selectEle03 selectMenu">风格</a>
+                        <a><img src="static/pic/shop/corner.png" class="pull-right typePic"></a>
+                    </ul>
+                    <ul class="byType option option02">
+                        <li><a class="blank" value="欧式">欧式</a></li>
+                        <li><a value="现代">现代</a></li>
+                        <li><a value="田园">田园</a></li>
+                        <li><a value="地中海">地中海</a></li>
+                        <li><a value="默认风格">默认风格默认</a></li>
+                        <div style="margin-bottom: 60em"></div>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="col-xs-4">
+            <ul>
+                <li class="selectEle selectBrand">
+                    <ul class="selectCancel04">
+                        <a class="selectEle04 selectMenu">品牌</a>
+                        <a><img src="static/pic/shop/corner.png" class="pull-right brandPic"></a>
+                    </ul>
+
+                    <ul class="blankTab">
+                        <li><a></a></li>
+                        <li><a></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div id="selectBrand">
+            <div id="selectBrand01" class="container">
+                <ul>
+                    <li><a id="brand01" value="南方">南方</a></li>
+                    <li><a id="brand02" value="万好">万好</a></li>
+                    <li><a id="brand03" value="主角">主角</a></li>
+                    <li><a id="brand04" value="美迪">美迪</a></li>
+                    <li><a id="brand05" value="沙克">沙克</a></li>
+                    <li><a id="brand06" value="意凡">意凡</a></li>
+                    <li><a id="brand07" value="全虎">全虎</a></li>
+                </ul>
+            </div>
+            <div id="selectBrand02" class="container">
+                <ul>
+                    <li><a id="brand08" value="艾森">艾森</a></li>
+                    <li><a id="brand09" value="浪度">浪度</a></li>
+                    <li><a id="brand10" value="三叶">三叶</a></li>
+                    <li><a id="brand11" value="欧的">欧的</a></li>
+                    <li><a id="brand12" value="好风景">好风景</a></li>
+                    <li><a id="brand13" value="天骄">天骄</a></li>
+                    <li><a id="brand14" value="双虎">双虎</a></li>
+                </ul>
+            </div>
+            <div style="background-color: #ffffff; height: 10em"></div>
+        </div>
+
+    </div>
+</div>
+
+
+
+<!--local-->
+<main>
+
+    <div style="margin: 0; background-color: #f5f5f5; height: 0.5em; position: relative"></div>
+
+    <div class="container local media">
+
+    <div class="container smallLogo">
+        <a>
+            <img src="static/pic/goodsdetail/pointer.png" onclick="alert('address')">
+        </a>
+    </div>
+    <span>
+        <a onclick="floatNotify.simple('address', '2000');">成都家具产业园繁川家具大道南段365号家和家园国际家居 商城</a>
+    </span>
+
+
+    </div>
+
+<div style="margin: 0; background-color: #f5f5f5; height: 1px"></div>
+
+<!--tel-->
+
+<div class="media container local">
+    <div class="container smallLogo">
+        <a>
+            <img src="static/pic/goodsdetail/phone.png" onclick="alert('028-87730606')">
+        </a>
+    </div>
+    <span><a onclick="floatNotify.simple('028-87730606', '2000')">028-87730606</a></span>
+</div>
+
+<div style="margin: 0; background-color: #f5f5f5; height: 0.5em"></div>
+
+<!--goods list-->
+
+
+
+
+    <div class="media container">
+        <div class="media-left media-middle">
+            <a href="goods_detail.html">
+                <img class="media-object" src="static/pic/goodslist/goods.png" alt="..." style="height: 6em">
+            </a>
+        </div>
+        <div class="media-body price">
+            <div class="introduce">
+                <h6><a class="text" href="goods_detail.html">欧式经典款 高档水牛头层真皮床 对称式描金雕花1.8米精致水晶拉扣床</a></h6>
+            </div>
+            <div class="footPrice">
+                <h4>￥8900<span class="begin">起</span></h4>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+<!--to top-->
+
+<div class="to_top">
+    <a href="#top" target="_self"><img src="static/pic/moreinfo/top.png"></a>
+</div>
+
+</main>
+<!--</main>-->
+
+
+
+</body>
+<script src="static/js/jquery.min.js"></script>
+<script src="static/js/dropmenu.js"></script>
+<script src="static/js/switch.js"></script>
+<script src="static/js/more.js"></script>
+<script id="more_script">
+    $(window).scroll(function() {
+        loadData02()
+    });
+</script>
+<script src="static/js/msg.js"></script>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, target-densityDpi=device-dpi">
+    <title>店铺列表</title>
+    <link href="static/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="static/css/style_shopList.css" rel="stylesheet" type="text/css">
+    <link href="static/css/msg.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div class="mainList">
+
+
+    <div class="media container">
+        <div class="media-left media-middle">
+            <a href="goods_detail.html">
+                <img class="media-object" src="static/pic/homepage/guessYouLike/shop.png" alt="..." style="height: 6em">
+            </a>
+        </div>
+        <div class="media-body price">
+            <div class="introduce">
+                <h4 class="media-heading"><a href="goods_detail.html">红星美凯龙</a></h4>
+                <h6 style="font-size: smaller"><a href="goods_detail.html">地址：成都市武侯区红牌楼佳灵路红星美凯龙负1楼A8023/8025/8026</a></h6>
+                <h4><span>电话：028-87730606</span></h4>
+            </div>
+            <div class="distance pull-right">
+            <span class="localDistance">
+                <img style="height: 1em" src="static/pic/homepage/pointGray.png">
+                <a>距离<100m</a>
+            </span>
+            </div>
+        </div>
+    </div>
+    <div class="media container">
+        <div class="media-left media-middle">
+            <a href="goods_detail.html">
+                <img class="media-object" src="static/pic/homepage/guessYouLike/shop.png" alt="..." style="height: 6em">
+            </a>
+        </div>
+        <div class="media-body price">
+            <div class="introduce">
+                <h4 class="media-heading"><a href="goods_detail.html">红星美凯龙</a></h4>
+                <h6 style="font-size: smaller"><a href="goods_detail.html">地址：成都市武侯区红牌楼佳灵路红星美凯龙负1楼A8023/8025/8026</a></h6>
+                <h4><span>电话：028-87730606</span></h4>
+            </div>
+            <div class="distance pull-right">
+            <span class="localDistance">
+                <img style="height: 1em" src="static/pic/homepage/pointGray.png">
+                <a>距离<100m</a>
+            </span>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<div style="text-align: center; color: rgb(4, 164, 180)">
+    <a><h6 style="color: #269abc" onclick="more_data01()">加载更多</h6></a>
+</div>
+
+<!--</main>-->
+
+</body>
+<script src="static/js/jquery.min.js"></script>
+<script src="static/js/dropmenu.js"></script>
+<script src="static/js/option.js"></script>
+<script src="static/js/more.js"></script>
+<script>
+    $(window).scroll(function() {
+        loadData01()
+    });
+</script>
+<script src="static/js/msg.js"></script>
+</html>

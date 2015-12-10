@@ -1,0 +1,359 @@
+
+* {
+    font-weight: 200;
+}
+
+
+body {
+    max-width: 640px;
+    min-width: 320px;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+
+
+/*photo*/
+
+.mainPhoto>img {
+    width: 100%;
+}
+
+.tips {
+    bottom: -2%;
+    position: absolute;
+    z-index: 998;
+}
+
+.tips>p {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+}
+
+.icon {
+    bottom: 3%;
+    right: 0;
+    position: absolute;
+    z-index: 998;
+}
+
+.icon>img {
+    height: 1.5em;
+}
+
+.bg {
+    position: absolute;
+    bottom: 0;
+    z-index: 996;
+    overflow: hidden;
+}
+
+.bg>img {
+    width: 300%;
+    height: 2.4em;
+}
+
+/*select bar*/
+
+.selectBar {
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(210, 210, 210, 0.35);
+    overflow-x: hidden;
+    position: absolute;
+    max-width: 640px;
+    min-width: 320px;
+}
+
+.selectBar>.container>.col-xs-3 {
+    padding: 0.1em 0.3em;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 0.2em 0;
+}
+
+a {
+    color: #000000;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+.selectEle {
+    margin: 0.5em 0;
+    padding: 0.3em 0 0 0.3em;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+
+.selectEle>ul {
+    z-index: 998;
+    background-color: #ffffff;
+}
+
+.selectEle img {
+    padding-top: 0.3em;
+    height: 1.5em;
+    visibility: hidden;
+}
+
+@media (max-width: 350px) {
+    .selectEle a {
+        font-size: 0.8em;
+        text-decoration: none;
+    }
+
+    .selectEle img {
+        padding-top: 0.5em;
+        height: 1.8em;
+        visibility: hidden;
+    }
+}
+
+.selectEle>ul>a {
+    text-decoration: none;
+    color: rgb(4, 164, 180);
+}
+
+.selectEle04 {
+    padding: 0.3em 0;
+}
+
+
+
+.blankTab {
+    display: none;
+}
+
+#selectBrand {
+    height: 2em;
+    margin-top: 2.85em;
+    padding-bottom: 60em;
+    display: none;
+}
+
+.selectBrand {
+    padding: 0.3em 0 0 0.3em;
+}
+
+.selectBrand>a {
+    padding-left: 1.5em;
+    vertical-align: bottom;
+}
+
+#selectBrand>div {
+    text-align: center;
+}
+
+#selectBrand01 {
+    position: static;
+    background-color: #ffffff;
+    float: left;
+    width: 50%;
+    color: #000000;
+}
+
+#selectBrand02 {
+    position: static;
+    background-color: #ffffff;
+    float: left;
+    width: 50%;
+    color: #000000;
+}
+
+.selBlank {
+    height: 3em;
+    background-color: hsla(0, 0%, 96%, 0.9);
+    width: 100%;
+    z-index: 997;
+}
+
+.media {
+    margin-top: 0;
+}
+
+.test {
+    position: static;
+}
+
+.option {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    text-align: center;
+    min-width: 100%;
+    display: none;
+}
+
+.option>li>a {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.selectMenu {
+    padding-left: 1.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 4em;
+}
+
+
+/*main part*/
+
+.mainPart {
+    background-color: #f5f5f5;
+}
+
+.smallLogo {
+    padding-right: 0;
+}
+
+.local {
+    padding-top: 1em;
+    background-color: #ffffff;
+    padding-bottom: 1em;
+}
+
+.local>div {
+    float: left;
+}
+
+.local>div>a>img {
+    width: 1.6em;
+    padding-right: 0.2em;
+}
+
+.local>span {
+    font-size: small;
+}
+
+/*main*/
+
+main {
+    position: relative;
+    margin-top: 2.5em;
+}
+
+.media {
+    padding: 0.5em 0.5em;
+    margin: 0.4em 0;
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #222222;
+}
+
+.media-heading {
+    font-size: 1.5em;
+    margin: 0 0.5em 0.5em 0;
+    float: left;
+    max-width: 42px;
+    max-height: 14px;
+    overflow-x: hidden;
+}
+
+.goodsTitle {
+    font-size: 0.5em;
+}
+
+.price {
+    margin-top: 0.1em;
+}
+
+.price>h4 {
+    font-size: 1em;
+    color: orangered;
+}
+
+.price>h4>span {
+    font-size: 0.5em;
+    color: #000000;
+    vertical-align: bottom;
+}
+
+.localDistance {
+    margin-top: 0.3em;
+}
+
+.mainList {
+    margin-top: 1em;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+
+#telephone {
+    font-size: xx-small;
+    margin-top: 2em;
+    float: left;
+}
+
+.media-body>h5 {
+    /*font-weight: bold;*/
+    float: none;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+.media-body>h6 {
+    padding: 0;
+    margin: 0.5em 0;
+}
+
+
+
+/*to top*/
+
+.to_top {
+    position: fixed;
+    left: 85%;
+    top: 90%;
+}
+
+.to_top>a>img {
+    height: 2.5em;
+}
+
+
+
+.introduce {
+    width: 100%;
+}
+
+.begin {
+    font-size: 0.7em;
+}
+
+@media (max-width: 380px) {
+    .media-heading {
+        max-width: 28px;
+    }
+}
+
+@media (min-width: 440px) {
+    .media-heading {
+        max-width: 56px;
+    }
+}
