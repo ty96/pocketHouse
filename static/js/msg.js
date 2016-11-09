@@ -13,7 +13,7 @@ function compareVersion(v1, v2) {
             n2 = 0
         }
         if (n1 < n2) {
-            return -1
+            return - 1
         } else {
             if (n1 > n2) {
                 return 1
